@@ -1,9 +1,5 @@
-mod middlewares;
-mod models;
-mod core;
-mod routers;
-mod api;
+mod app;
 
 fn main() {
-    println!("Hello, world!");
+    app::main()
 }
