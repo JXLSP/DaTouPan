@@ -5,6 +5,7 @@ pub mod core;
 pub mod models;
 pub mod routers;
 pub mod middlewares;
+mod services;
 
 #[get("/test")]
 async fn test() -> impl Responder {
